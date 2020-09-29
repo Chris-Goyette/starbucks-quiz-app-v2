@@ -284,6 +284,7 @@ const store = {
   
   function restartQuiz() {
     store.quizStarted = false;
+    store.score = 0 // I added this 
     store.questionNumber = 0;
     store.submittingAnswer = false;
     store.currentQuestionState.answerArray = [];
