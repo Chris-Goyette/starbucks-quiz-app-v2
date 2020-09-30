@@ -32,9 +32,14 @@ p {
 .welcome, .quiz-interface, .answer-response, .quiz-results {
   margin: 20px;
   padding: 26px;
-  border: 2px solid darkgoldenrod;
+  border: 5px solid darkgoldenrod;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
+}
+
+button {
+  border-radius: 25px;
 }
 
 ol li {
